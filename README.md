@@ -24,14 +24,23 @@ In order to get our predictions (and improve on them), we next create a training
 After running the model in our training loop, we find that our model is learning new embedding weights in order to better classify the reviews as positive or negative. This is evidenced by the clear decrease in the training loss after each run through the training dataset. 
 
 | Epoch: 01 | Train Loss: 408.786
+
 | Epoch: 02 | Train Loss: 314.850
+
 | Epoch: 03 | Train Loss: 268.029
+
 | Epoch: 04 | Train Loss: 233.586
+
 | Epoch: 05 | Train Loss: 203.201
+
 | Epoch: 06 | Train Loss: 178.910
+
 | Epoch: 07 | Train Loss: 155.308
+
 | Epoch: 08 | Train Loss: 136.358
+
 | Epoch: 09 | Train Loss: 123.505
+
 | Epoch: 10 | Train Loss: 106.022
 
 We find our model does okay at classifying unseen data as either positive or negative. When testing the final model weights on the unseen test data, we get an accuracy rate of 79%. This suggest that our model does better than chance at properly predicting the sentiment of a movie review. 
@@ -39,4 +48,5 @@ We find our model does okay at classifying unseen data as either positive or neg
 
 ## Data Sources
 SST2: https://github.com/clairett/pytorch-sentiment-classification/tree/master/data
+
 GloVe: https://nlp.stanford.edu/projects/glove/
