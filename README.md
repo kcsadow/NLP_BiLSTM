@@ -8,6 +8,6 @@ The goal of this project is to replicate the first piece of this paper, which is
 
 ## Methods
 
-<img src="{{ site.url }}{{ site.baseurl }}/img/bilstm.png">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/bilstm.png">
 
 ## Results 
