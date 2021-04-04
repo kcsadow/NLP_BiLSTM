@@ -50,3 +50,5 @@ We find our model does okay at classifying unseen data as either positive or neg
 SST2: https://github.com/clairett/pytorch-sentiment-classification/tree/master/data
 
 GloVe: https://nlp.stanford.edu/projects/glove/
+
+Bastings et. al: https://www.aclweb.org/anthology/P19-1284v2.pdf
