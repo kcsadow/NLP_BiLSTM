@@ -11,7 +11,7 @@ For future work, we would like to consider 1) shifting from two-part classificat
 ## Methods
 We run a BiLSTM model for two-part classification on movie reviews. In particular, we follow the model pictured below. 
 
-![BiLSTM](https://kcsadow.github.com/images/bilistm.png)
+![BiLSTM](https://kcsadow.github.com/NLP_BiLSTM/assets/bilistm.png)
 
 Before running the model itself, our first step is to import the text of the reviews. Our data comes from the SST2, which includes 9,613 reviews that have already been split into 6,920 training examples, 872 validation examples, and 1,821 testing examples. For our initial analyses, we focus only on the training and testing examples. We preprocess our text by putting the reviews in lowercase and then removing contractions, punctuation, and special characters. Each word in a review is an element of our model's input matrix.
 
