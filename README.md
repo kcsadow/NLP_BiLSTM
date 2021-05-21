@@ -27,29 +27,11 @@ In terms of hyperparameters, Basting et al. 2020 uses the Adam optimizer with a 
 
 After implementing and running our model, we find that it is indeed learning new embedding weights to better classify the reviews as being of positive or negative sentiment. This is evidenced by the clear decrease in the training loss after each run through the training dataset. 
 
-| Epoch: 01 | Train Loss: 384.848
-| Epoch: 02 | Train Loss: 233.480
-| Epoch: 03 | Train Loss: 124.787
-| Epoch: 04 | Train Loss: 63.286
-| Epoch: 05 | Train Loss: 38.415
-| Epoch: 06 | Train Loss: 28.379
-| Epoch: 07 | Train Loss: 28.656
-| Epoch: 08 | Train Loss: 23.972
-| Epoch: 09 | Train Loss: 21.096
-| Epoch: 10 | Train Loss: 17.085
+<img src="https://github.com/kcsadow/NLP_BiLSTM/blob/main/assets/epochs_m1.png?raw=true">
 
 This trend is also present when using the hyperparameters from the paper, albeit with different performance:
 
-| Epoch: 01 | Train Loss: 166.863
-| Epoch: 02 | Train Loss: 132.821
-| Epoch: 03 | Train Loss: 117.455
-| Epoch: 04 | Train Loss: 107.327
-| Epoch: 05 | Train Loss: 95.827
-| Epoch: 06 | Train Loss: 86.891
-| Epoch: 07 | Train Loss: 82.442
-| Epoch: 08 | Train Loss: 72.420
-| Epoch: 09 | Train Loss: 64.861
-| Epoch: 10 | Train Loss: 60.507
+<img src="https://github.com/kcsadow/NLP_BiLSTM/blob/main/assets/epochs_m2.png?raw=true">
 
 We find our model does okay at classifying unseen data as either positive or negative. When testing the final model weights on the unseen test data, we get an accuracy rate of approximately 78%. This suggest that our model does better at properly predicting the sentiment of a movie review relative to chance. 
 
